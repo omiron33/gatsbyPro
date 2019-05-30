@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `Gatsby Default Starter`,
-    description: `New blog`,
-    author: `@gatsbyjs`,
+    description: `WD Starter`,
+    author: `Warren Douglas`,
+    siteUrl: "https://mystifying-villani-324025.netlify.com/",
   },
   plugins: [
     `gatsby-plugin-sitemap`,
