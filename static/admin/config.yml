@@ -6,11 +6,12 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: "team"
-    label: "Team"
-    folder: "src/team"
+  - name: "product"
+    label: "Product"
+    folder: "src/products"
     create: true
     slug: "{{slug}}"
     fields:
-      - { label: "Team Member", name: "title", widget: "string" }
-      - { label: "Bio", name: "bio", widget: "markdown" }
+      - { label: "Product", name: "product", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }

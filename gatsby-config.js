@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
+    title: `WD Default Starter`,
     description: `WD Starter`,
     author: `Warren Douglas`,
     siteUrl: "https://mystifying-villani-324025.netlify.com/",
@@ -44,9 +44,9 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
-    `gatsby-plugin-netlify`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
+    `gatsby-plugin-netlify`,
   ],
 }
