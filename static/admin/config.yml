@@ -1,7 +1,6 @@
 backend:
-  name: github
-  branch: master
-  repo: omiron33/gatsbyPro
+  name: "github"
+  repo: "omiron33/gatsbyPro"
 
 media_folder: static/img
 public_folder: /img
